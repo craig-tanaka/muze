@@ -10,6 +10,7 @@ body {
 }
 
 
+/* __________Nav____________*/
 nav{
     display: flex;
     align-items: center;
@@ -17,7 +18,6 @@ nav{
     /* width: 90vw;
     margin: auto; */
 }
-
 .nav-link{
     height: max-content;
 }
@@ -26,11 +26,41 @@ nav{
     height: auto;
 }
 
+
+/* __________Track-Info ____________*/
 figure{
     margin: 0;
 }
 .cover-art{
     width: 70%;
     margin-left: 15%;
+    margin-right: 15%;
     border-radius: 10rem;
+}
+.track-info{
+    text-align: center;
+}
+
+
+/* ________Track-Controls ____________*/
+.track-controls{
+    margin-top: 5rem;
+}
+.track-progress-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 .25rem;
+}
+progress.track-progress{
+    width: 100%;
+    /* margin-top: 1rem; */
+}
+.track-switch-controls{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.track-control-img{
+    width: 2rem;
 }
