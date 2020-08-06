@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Muze</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <button class="nav-link">
-            Back
+            <img src="./img/back-icon.png" alt="back" class="nav-link-image">
         </button>
         <button class="nav-link">
-                <svg xmlns:xlink="http://www.w3.org/1999/xlink"
-                xmlns:krita="http://krita.org/namespaces/svg/krita"
-                xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                width="173.52pt"
-                height="184.32pt"
-                viewBox="0 0 173.52 184.32">
+            <svg width="173.52pt" height="184.32pt" viewBox="0 0 173.52 184.32" class="nav-link-image">
                 <defs />
                 <path id="shape0" transform="translate(9.16410418585392, 58.5484434096222)" fill="none" stroke="#000000"
                     stroke-width="7.2" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2"
@@ -32,16 +31,18 @@
                 <path id="shape01" transform="matrix(1.00000000690723 0 0 1.00000006388161 4.32 46.0798999999936)"
                     opacity="0.9" fill="none" stroke="#000000" stroke-width="9.36" stroke-linecap="round"
                     stroke-linejoin="miter" stroke-miterlimit="2.16000008583069" d="M0 0.0001L147.6 0" />
-                </svg>
+            </svg>
         </button>
     </nav>
     <main>
         <section class="track-info">
-            <caption> 
-                <picture><img src="" alt=""></picture>
-                <label for="">Track Name</label>
-                <label for="">Track Artists</label>
-            </caption>
+            <figure>
+                <img class="cover-art" src="./img/cover-art.jpg" alt="">
+                <figcaption>
+                    <h1>Lose it</h1>
+                    <h2>Flume Ft. Vic Mensa</h2>
+                </figcaption>
+            </figure>
         </section>
         <section class="track-controls">
             <div class="track-progress-container">
@@ -59,4 +60,5 @@
         </section>
     </main>
 </body>
+
 </html>

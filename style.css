@@ -1,0 +1,36 @@
+html{height: 100vh}
+body {
+    background-color: rgb(230, 225, 225);
+    padding: .5rem 1rem;
+    height: calc(100% - 1rem);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 90vw;
+    margin: auto; */
+}
+
+.nav-link{
+    height: max-content;
+}
+.nav-link > .nav-link-image{
+    width: 1.5rem;
+    height: auto;
+}
+
+figure{
+    margin: 0;
+}
+.cover-art{
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10rem;
+}
